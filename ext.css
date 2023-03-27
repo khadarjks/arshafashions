@@ -1,0 +1,465 @@
+*
+{
+margin: 0;
+padding:0;
+}
+
+.header1
+{
+    background-color: black;
+    width: 100%;
+    height:40px;
+    display: flex;
+}
+.header1 .list1 li a
+{
+    color: white;
+    font-family: 'Antonio', sans-serif; font-size:13pt;
+    text-decoration: none;
+
+}
+.header1 .list2 li a
+{
+    color: white;
+    font-family: 'Antonio'; font-size:13pt;
+    text-decoration: none;
+}
+
+.header
+{
+background-color:white;
+width:100%;
+height:55px;
+display:flex;
+}
+
+.header .nav ul li a
+{
+color:black;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+}
+.list1 li
+{
+    display: inline;
+    margin-left: 25px;
+}
+
+.list2 li
+{
+    display: inline;
+    margin-left: 25px;
+}
+.nav li
+{
+    display: inline;
+    
+}
+.nav2
+{
+    display: none;
+    
+}
+.list2
+{
+    margin-left: 740px;
+    margin-top: 8px;
+}
+.list1
+{
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.logo
+{
+    margin-left: 60px;
+    margin-top: 4px;
+}
+.nav
+{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.nav li
+{
+    margin-left: 21px;
+}
+.img3
+{
+    display: none;
+}
+input
+{
+    margin-left: 5px;
+    width: 400px;
+    height:30px;
+    background-color: #ecedeb;
+    border: none;
+}
+.nav .img1
+{
+    margin-left: 10px;
+
+}
+.nav .img2
+{
+    margin-left: 10px;
+    margin-right: -20px;
+}
+.header .fa-bars
+{
+    display: none;
+}
+
+
+.dealofday
+{
+    background-color: blueviolet;
+    color: whitesmoke;
+    height: 40px;
+    margin-top: 5px;
+}
+.dealofday h4
+{
+    font-size: larger;
+    font-weight: 100;
+    text-align:center;
+    padding-top: 8px;
+}
+
+.dealofday a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.banner
+{
+    background-image: url("banner.png");
+    width: 100%;
+    height:500px;
+    margin: auto;
+
+}
+.banner h2
+{
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(141, 124, 124);
+    font-size:40pt;
+    margin-left: 180px;
+    padding-top: 130px;
+    font-weight: 50;
+}
+.banner h3
+{
+    font-family: 'poppins', cursive;
+    color: rgb(141, 124, 124);
+    font-size:40pt;
+    margin-left: 180px;
+    margin-top: -1px;
+}
+.banner button
+{
+    background-color: black;
+    padding: 10px 50px;
+    border: none;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.banner button a
+{
+    text-decoration: none;
+    color: #eaeaea;
+    font-size:x-large;
+    font-weight: 100;
+}
+.div2
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    padding-top: 30px;
+}
+.shopbycategory h2
+{
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.cards .card1,.card2,.card3, .card4
+{
+width: 30%;
+height: auto;
+}
+
+.cards h2
+{
+    
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+}
+.div3 .cards
+{
+    width:100%;
+    display: flex;
+    
+    
+}
+.div4 .wcs
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 40px;
+    margin: auto;
+    padding-top: 40px;
+}
+.div4
+{
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    padding-top: 50px;   
+}
+.div5 h2
+{
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;   
+}
+.div5 .banner4 button
+{
+    font-family: 'poppins', cursive;
+    background-color:#eec392;
+    padding: 10px 25px;
+    border: none;
+    position: relative;
+    bottom:150px;
+    left:840px;
+}
+.div5 .banner4 button a
+{
+    text-decoration: none;
+    color: #1c0038;
+    font-size:x-large;
+    font-weight: 100;
+}
+.div6 .socialapp .links
+{
+    display: grid;
+    grid-template-columns:repeat(4,16%);
+}
+.div6
+{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap:200px;
+    grid-template-rows: 180px;
+    margin:auto;
+
+}
+.div6 .subscribe p
+{
+    font-family: 'Trispace', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.div6 .subscribe h4
+{
+
+    color: rgb(212, 207, 207);
+}
+.div6 .subscribe input
+{
+    margin-top: 30px;
+    margin-left: 0px;
+    border: none;
+    padding: 3px;
+}
+.div6 .socialapp p
+{
+    font-family: 'Trispace', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.div6 .socialapp h4
+{
+
+    color: rgb(212, 207, 207);
+}
+.div6 .subscribe button
+{
+    background-color: black;
+    padding: 10px 25px;
+    border: none;
+    margin-left: 10px;
+}
+.div6 .subscribe button a
+{
+    text-decoration: none;
+    color: white;
+}
+.div6 .socialapp .links
+{
+    margin-top: 23px;
+    margin-left: -15px;
+}
+.div7 .footers
+{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-column-gap:150px;
+    width: 90%;
+    margin:auto;
+}
+.div7
+{
+    font-family: 'poppins', cursive;
+}
+.div7 li1
+{
+    font-weight: bolder;
+    font-size: large;
+    list-style-type: none;
+}
+.div7 li1 a
+{
+text-decoration: none;
+color: black;
+}
+.div7 li a
+{
+text-decoration: none;
+color: black;
+}
+.div7 li
+{
+list-style-type: none;
+}
+.footerlogo
+{
+margin-top:50px;
+margin-bottom:30px;
+}
+.footerlogo img
+{
+    margin-left: 40px;
+}
+.footerlogo label1
+{
+    font-family: 'poppins', cursive;
+    font-weight: bolder;
+    font-size: 19pt;
+    position:relative;
+    bottom:26px;
+    left:10px;
+}
+.footerlogo label2
+{
+    font-family: 'poppins', cursive;
+    font-weight: 500;
+    font-size: 12pt;
+    position:relative;
+    bottom:6px;
+    left:-173px;
+}
+.info
+{
+    display: none;
+}
+@media screen and (max-width:480px) and (min-width:320px){
+    .header1
+    {
+        display: none;
+    }
+    .nav
+    {
+        display: none;
+    }
+    .nav2
+    {
+        display: none;
+        position:fixed;
+        background-color:whitesmoke;
+        width: 60%;
+        height: 70vh;
+
+    }
+    .nav2 li
+    {
+        display: block;
+        padding-top: 1em;
+    }
+    .nav2 li a
+    {
+        color:black;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        padding-left: 2em;
+        
+
+    }
+    .nav2 input
+    {
+        width: 75%;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 4px;
+        margin-top: 1.5em;
+    }
+    .nav2 .img1
+    {
+        margin-left: .5em;
+    }
+
+    .img3
+    {
+        display: block;
+        width: 36px;
+        height: 27px;
+        padding-top: 1.1em;
+        padding-right: .5em;
+        
+    }
+    .header .fa-bars
+    {
+        display: block;
+        font-size: larger;
+        padding-top: 1.1em;
+        padding-left: .5em;
+    }
+    .logo
+    {
+        margin: auto;
+        padding-top: .4em;
+    }
+    .dealofday
+    {
+        background-color: blueviolet;
+        color: whitesmoke;
+        height: 55px;
+        margin-top: 8px;
+    }
+    .dealofday h4
+    {
+        font-size: large;
+        font-weight: 100;
+        text-align:center;
+        padding-top: 8px;
+        
+    }
+    .info
+    {
+    display: block;
+    }
+
+}
+@media screen and (max-width:768px) and (min-width:481px)
+{
+    .info
+    {
+    display: block;
+    }
+}
